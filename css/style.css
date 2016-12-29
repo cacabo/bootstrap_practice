@@ -1,0 +1,67 @@
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+div.navbar.navbar-default.navbar-fixed-top {
+	height: auto;
+}
+
+nav.navbar.navbar-default {
+	margin: 0;
+	background-color: white;
+	width: 100%;
+	z-index: 1;
+}
+
+a.navbar-brand {
+	height: auto;
+}
+
+a.navbar-brand h1 {
+	color: black;
+	letter-spacing: 4px;
+	line-height: 0%;
+}
+
+div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
+}
+
+.navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-collapse.collapse.in {display: block !important; }
